@@ -2,6 +2,7 @@ import random
 
 class Dragon:
     def __init__(self):
+        self.name = "Dragon"
         self.max_health = 40
         self.health = self.max_health
         self.attack_str = 5
